@@ -17,7 +17,6 @@ new_text = text
 for temp in template:
     new_text = new_text.replace(f"{old_variable}{temp}", f"{new_variable}{temp}")
     new_text = new_text.replace(f"{temp}{old_variable}", f"{temp}{new_variable}")
-print (text, new_text)
 
 with open(folder, "w", encoding="utf-8") as f:
-    f.write(new_text)
+    f.write(new_text)    
