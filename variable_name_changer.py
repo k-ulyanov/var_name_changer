@@ -20,4 +20,4 @@ for temp in template:
 print (new_text)
 
 with open(folder, "w", encoding="utf-8") as f:
-    f.write(new_text)    
+    f.write(new_text)
